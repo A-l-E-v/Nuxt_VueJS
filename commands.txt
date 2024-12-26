@@ -1,0 +1,3 @@
+yarn dlx nuxi@latest init figma_clone
+cd figma_clone
+yarn dev --open
