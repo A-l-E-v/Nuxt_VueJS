@@ -1,19 +1,26 @@
 <template>
   <div>
     <Navbar />
-    <HeroSection />
+    <MainSection />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 import Navbar from '~/components/Navbar.vue';
-import HeroSection from '~/components/HeroSection.vue';
+import MainSection from './components/MainSection.vue';
 
 export default defineComponent({
   components: {
     Navbar,
-    HeroSection,
+    MainSection
   },
 });
 </script>
+
+<style>
+* {
+  font-family: Arial, sans-serif;
+  /* Устанавливаем шрифт Arial глобально */
+}
+</style>
